@@ -1,0 +1,254 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100%;
+    font-family: 'poppins', sans-serif;
+}
+h1, h2, p, li, a{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.main-content{
+    min-height: 100vh;
+}
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* H  E  A  D  E  R  */
+
+header{
+    border-bottom: 1px solid #B3B3B3;
+    min-height: 127px;
+}
+header .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 127px;
+}
+
+.header__right--block ul{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.header__right--block ul li a{
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #020202;
+}
+.header--pseudo::after{
+    content: '/';
+    margin: 0 15px;
+    color: #B3B3B3;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+/*  A  B  O  U  T  */
+
+.about--me{
+    min-height: 404px;
+    border-bottom: 1px solid #B3B3B3;
+}
+
+.text--align{
+    min-height: 404px;
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+}
+.text--align h1{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.text--align p{
+    color: #010101;
+    font-size: 1rem;
+    font-weight: 700;
+    max-width: 650px;
+}
+
+
+button{
+    padding: 0.8rem 2.3rem;
+    background: #222222;
+    text-transform: capitalize;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*  C  O  N  T  E  N  T  */
+
+.main-content{
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    padding: 0rem 0rem 3rem 0rem;
+}
+.main-content h1{
+    text-transform: capitalize;
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.box{
+    border: 1px solid #CCCCCC;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 300px;
+    min-height: 50px;
+    align-items: center;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.box h2{
+    font-size: 1.2rem;
+}
+.box p{
+    font-size: 0.9rem;
+    font-style: italic;
+    color: grey;
+}
+.box__text{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    gap: 0.5rem;
+}
+
+.box__inner--grey{
+    width: 100%;
+    min-height: 200px;
+    background: #CCCCCC;
+}
+
+
+/*  F  O  O  T  E  R  */
+
+
+footer{
+    background: #E5E5E5;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    min-height: 500px;
+}
+.footer__block--big{
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+.footer__right--block--vertical{
+    display: flex;
+}
+
+
+.footer__left--block{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 200px;
+    gap: 2rem;
+}
+.footer__left--block h1, .footer__right--block h1{
+    text-transform: capitalize;
+}
+.footer__right--block{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.__vertical--blocks{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.border--line{
+    border-bottom: 1px solid #ccc;
+    padding: 0 0 2rem 0;
+}
+
+
+.__vertical--grey--cube{
+    flex: 1 1 200px;
+    min-height: 100px;
+    background: #CCCCCC;
+}
+.__aside--grey--cube{
+    margin: 0 0 0 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.__aside--grey--cube h2{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+
+}
+.__aside--grey--cube p{
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    color: rgba(74, 74, 74, 0.8);
+    font-weight: 900;
+}
+
+.social--icons{
+    display: flex;
+    gap: 10px;
+}
+
+.footer--navigation{
+    min-height: 100px;
+    background: white;
+    width: 100%;
+}
+.footer--navigation nav ul{
+    display: flex;
+}
+.footer--navigation ul li a{
+    font-size: 0.7rem;
+    font-weight: 900;
+    color: #020202;
+}
+
+.container--2{
+    max-width: 1000px;
+    width: 100%;
+    min-height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
